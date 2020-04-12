@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 import glob, os.path, re, json
 # print('cwd: '+ os.getcwd())
-os.chdir('./day3')
+os.chdir('C:\\Users\\4class-119\\New\\day3')
 # 데이터 읽어 들이기--- (※1)
 mr = pd.read_csv("mushroom.csv", header=None)
 

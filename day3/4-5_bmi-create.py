@@ -2,7 +2,7 @@ import random
 
 import glob, os.path, re, json
 # print('cwd: '+ os.getcwd())
-os.chdir('./day3')
+os.chdir('C:\\Users\\4class-119\\New\\day3')
 
 # BMI를 계산해서 레이블을 리턴하는 함수
 def calc_bmi(h, w):
@@ -19,7 +19,7 @@ fp.write("height,weight,label\r\n")
 cnt = {"thin":0, "normal":0, "fat":0}
 for i in range(20000):
     h = random.randint(120,200)
-    w = random.randint(35, 80)
+    w = random.randint(35, 130)
     label = calc_bmi(h, w)
     cnt[label] += 1
     fp.write("{0},{1},{2}\n".format(h, w, label))

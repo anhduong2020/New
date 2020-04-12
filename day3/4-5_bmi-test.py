@@ -5,7 +5,7 @@ import pandas as pd
 
 import glob, os.path, re, json
 # print('cwd: '+ os.getcwd())
-os.chdir('./day3')
+os.chdir('C:\\Users\\4class-119\\New\\day3')
 
 # 키와 몸무게 데이터 읽어 들이기 --- (※1)
 tbl = pd.read_csv("bmi.csv")

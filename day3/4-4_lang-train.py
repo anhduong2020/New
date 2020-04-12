@@ -2,7 +2,7 @@ from sklearn import svm, metrics
 import glob, os.path, re, json
 
 print('cwd: '+ os.getcwd())
-os.chdir('./day3')
+os.chdir('C:\\Users\\4class-119\\New\\day3')
 # 텍스트를 읽어 들이고 출현 빈도 조사하기 --- (※1)
 def check_freq(fname):
     name = os.path.basename(fname)
@@ -10,7 +10,7 @@ def check_freq(fname):
     with open(fname, "r", encoding="utf-8") as f:
         text = f.read()
 
-    text = text.lower() # 소문자 변환
+    text = text.lower() # 소문자 변환 chuyen chu thuong
     # 숫자 세기 변수(cnt) 초기화하기
     cnt = [0 for n in range(0, 26)]
     code_a = ord("a")

@@ -3,7 +3,7 @@ import pandas as pd
 
 import glob, os.path, re, json
 # print('cwd: '+ os.getcwd())
-os.chdir('./day3')
+os.chdir('C:\\Users\\4class-119\\New\\day3')
 
 # Pandas로 CSV 파일 읽어 들이기
 tbl = pd.read_csv("bmi.csv", index_col=2)

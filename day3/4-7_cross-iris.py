@@ -3,7 +3,7 @@ import random, re
 
 import glob, os.path, re, json
 # print('cwd: '+ os.getcwd())
-os.chdir('./day3')
+os.chdir('C:\\Users\\4class-119\\New\\day3')
 # 붓꽃의 CSV 파일 읽어 들이기 --- (※1)
 lines = open('iris.csv', 'r', encoding='utf-8').read().split("\n")
 f_tonum = lambda n : float(n) if re.match(r'^[0-9\.]+$', n) else n

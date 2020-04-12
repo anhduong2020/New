@@ -4,7 +4,7 @@ import json
 
 import glob, os.path, re, json
 # print('cwd: '+ os.getcwd())
-os.chdir('./day3')
+os.chdir('C:\\Users\\4class-119\\New\\day3')
 
 # 각 언어의 출현 빈도 데이터(JSON) 읽어 들이기
 with open("./lang/freq.json", "r", encoding="utf-8") as fp:
